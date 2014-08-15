@@ -14,6 +14,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         /*
          * test fait chier c'est chiant merdeuuuu !!!!
+         * SA MARCHE MA POULE :D
          */
     }
 
