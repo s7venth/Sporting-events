@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liste de couleurs dans l'ordre alphabetique -->
+<resources>
+    <color name="blanc">#FFFFFF</color>
+    <color name="bleu">#1020AA</color>
+    <color name="cadetblue">#7AC5CD</color>
+    <color name="noir">#000000</color>
+    <color name="rouge">#AA2010</color>
+</resources>
