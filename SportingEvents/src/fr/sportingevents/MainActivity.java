@@ -5,18 +5,14 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-/* TEST */
+
 public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*
-         * test fait chier c'est chiant merdeuuuu !!!!
-         * SA MARCHE MA POULE :D c'est quoi ce com
-         * mdr c rien dort mdr ok
-         */
+ 
     }
 
 
