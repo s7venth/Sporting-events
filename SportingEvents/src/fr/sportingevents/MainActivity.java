@@ -1,18 +1,27 @@
 package fr.sportingevents;
 
+import fr.ZoubertHanem.flatdesign.Accueil;
+import fr.ZoubertHanem.flatdesign.MainActivity;
+import fr.ZoubertHanem.flatdesign.R;
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
-
+	
+	Button btn_connexion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
- 
+        addOnclickListner();
     }
 
 
@@ -23,6 +32,20 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
+	private void addOnclickListner() {
+		
+		this.btn_connexion = (Button) findViewById(R.id.btn_connexion);
+		this.btn_connexion.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(getApplicationContext(), "Connexion...", Toast.LENGTH_SHORT).show();
+				Intent intent = new Intent(MainActivity.this, Home_activity.class);
+				startActivity(intent);
+			}
+		});
+	}
+	
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
