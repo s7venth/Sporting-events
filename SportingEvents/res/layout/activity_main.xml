@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@layout/fond"
+    android:background="@drawable/bg"
     tools:context="fr.sportingevents.MainActivity" >
 
     <!--  Header  Starts-->
@@ -24,17 +24,34 @@
 
   		    <!-- Logo Ends -->
 
-  		    <TextView
-  		        android:layout_width="0dp"
-  		        android:layout_height="wrap_content"
-  		        android:layout_weight="0.78"
-  		        android:gravity="center_horizontal"
-  		        android:text="@string/titre"
-  		        android:textColor="@color/noir"
-  		        android:textSize="@dimen/taille_texte_titre"
-  		        android:textStyle="bold" />
+<!--   		    <TextView -->
+<!--   		        android:layout_width="0dp" -->
+<!--   		        android:layout_height="wrap_content" -->
+<!--   		        android:layout_weight="0.78" -->
+<!--   		        android:gravity="center_horizontal" -->
+<!--   		        android:text="@string/titre" -->
+<!--   		        android:textColor="@color/noir" -->
+<!--   		        android:textSize="@dimen/taille_texte_titre" -->
+<!--   		        android:textStyle="bold" /> -->
   		</LinearLayout>
 
   	<!--  Header Ends --> 
+    <ImageView
+        android:id="@+id/icon_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:contentDescription="@string/desc_login_title"
+        android:src="@drawable/deco_login_title" />
 
+    <include
+        android:id="@+id/formulaire"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/icon_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        layout="@layout/formulaire" />
+	
 </RelativeLayout>

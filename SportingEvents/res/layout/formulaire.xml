@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="230dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_form" >
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/rightroundborder"
+        android:ems="40"
+        android:gravity="center"
+        android:hint="@string/login_title"
+        android:inputType="text"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/login"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rightroundborder"
+        android:ems="40"
+        android:gravity="center"
+        android:hint="@string/pass_title"
+        android:inputType="textPassword"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_connexion"
+        android:layout_width="250dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn_connexion"
+        android:text="@string/title_btn_connexion"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon_login"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btn_connexion"
+        android:layout_alignTop="@+id/login"
+        android:background="@drawable/leftroundborder"
+        android:contentDescription="@string/img_desc"
+        android:padding="5dp"
+        android:src="@drawable/icon_left_user"/>
+
+    <ImageView
+        android:id="@+id/icon_mdp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/icon_login"
+        android:layout_alignTop="@+id/mdp"
+        android:background="@drawable/leftroundborder"
+        android:contentDescription="@string/img_desc"
+        android:padding="5dp"
+        android:src="@drawable/icon_left_mdp"/>
+
+</RelativeLayout>
