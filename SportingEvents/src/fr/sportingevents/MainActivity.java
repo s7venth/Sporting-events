@@ -1,8 +1,4 @@
 package fr.sportingevents;
-
-import fr.ZoubertHanem.flatdesign.Accueil;
-import fr.ZoubertHanem.flatdesign.MainActivity;
-import fr.ZoubertHanem.flatdesign.R;
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
