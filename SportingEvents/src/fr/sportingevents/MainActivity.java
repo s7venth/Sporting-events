@@ -17,6 +17,7 @@ public class MainActivity extends ActionBarActivity {
 	Button btn_connexion;
 	EditText champ_login,champ_mdp;
 	
+	// ----------------- DEBUT onCreate ----------------------- //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +38,7 @@ public class MainActivity extends ActionBarActivity {
 				champ_mdp.setBackgroundResource(R.drawable.rightroundborder);
 				return false;
 			}
-		});
+        });
         
         /* Description : Permet de changer la forme du champ quand il est selectionné 
          * cible : EditText Login et mot de passe
@@ -53,7 +54,7 @@ public class MainActivity extends ActionBarActivity {
 		});
         
     }
-
+    // ----------------- FIN onCreate ----------------------- //
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

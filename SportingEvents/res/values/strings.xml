@@ -15,5 +15,6 @@
     <string name="btn_creer">Créer</string>
     <string name="btn_consulter">Consulter</string>
     <string name="btn_modifier">Modifier</string>
+    <string name="logo">Logo</string>
 	
 </resources>
