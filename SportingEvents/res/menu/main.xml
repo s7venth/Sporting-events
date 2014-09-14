@@ -4,9 +4,10 @@
     tools:context="fr.sportingevents.MainActivity" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_option"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never"/>
+        android:icon="@drawable/ic_action_core_overflow"
+        android:title="@string/action_option"
+        app:showAsAction="ifRoom"/>
 
 </menu>

@@ -16,5 +16,5 @@
     <string name="btn_consulter">Consulter</string>
     <string name="btn_modifier">Modifier</string>
     <string name="logo">Logo</string>
-	
+	<string name="action_option">Option</string>
 </resources>
