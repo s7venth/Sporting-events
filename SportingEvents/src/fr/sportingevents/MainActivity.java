@@ -11,7 +11,10 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+/**
+ * @author Zoubert Hanem & Sylvain Vincent
+ * @version 1.0
+ */
 public class MainActivity extends ActionBarActivity {
 	
 	Button btn_connexion;
@@ -27,8 +30,10 @@ public class MainActivity extends ActionBarActivity {
         champ_login = (EditText) findViewById(R.id.login);
         champ_mdp = (EditText) findViewById(R.id.mdp);
         
-        /* Description : Permet de changer la forme du champ quand il est selectionné 
-         * cible : EditText Login et mot de passe
+        /**
+         * @author Sylvain Vincent
+         * <p>Description : Permet de changer la forme du champ quand il est selectionné 
+         * cible : EditText Login et mot de passe</p>
          */
         champ_login.setOnTouchListener(new View.OnTouchListener() {
 			
@@ -40,11 +45,14 @@ public class MainActivity extends ActionBarActivity {
 			}
         });
         
-        /* Description : Permet de changer la forme du champ quand il est selectionné 
-         * cible : EditText Login et mot de passe
+        
+        /**
+         * @author Sylvain Vincent 
+         * <p>Description : Permet de changer la forme du champ quand il est selectionné 
+         * cible : EditText Login et mot de passe</p>
          */
         champ_mdp.setOnTouchListener(new View.OnTouchListener() {
-			
+        	
 			@Override
 			public boolean onTouch(View arg0, MotionEvent arg1) {
 				champ_mdp.setBackgroundResource(R.drawable.champ_login_pressed);
@@ -62,7 +70,11 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
+    
+    /**
+     * @author Zoubert Hanem
+     * <p>Permet de deriger l'utilisateur vers la page d'acceuil</p>
+     */
 	private void addOnclickListner() {
 		
 		this.btn_connexion = (Button) findViewById(R.id.btn_connexion);
@@ -77,6 +89,9 @@ public class MainActivity extends ActionBarActivity {
 		});
 	}
 	
+	/**
+	 * @author Sylvain Vincent
+	 */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

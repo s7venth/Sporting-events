@@ -1097,13 +1097,16 @@ containing a value of this type.
         public static final int btn_modifier=0x7f020062;
         public static final int btn_modifier_normal=0x7f020063;
         public static final int btn_modifier_pressed=0x7f020064;
-        public static final int deco_events_title=0x7f020065;
-        public static final int deco_login_title=0x7f020066;
-        public static final int ic_launcher=0x7f020067;
-        public static final int icon_left_mdp=0x7f020068;
-        public static final int icon_left_user=0x7f020069;
-        public static final int leftroundborder=0x7f02006a;
-        public static final int rightroundborder=0x7f02006b;
+        public static final int champ_login_pressed=0x7f020065;
+        public static final int deco_events_title=0x7f020066;
+        public static final int deco_login_title=0x7f020067;
+        public static final int ic_action_core_overflow=0x7f020068;
+        public static final int ic_launcher=0x7f020069;
+        public static final int icon_left_mdp=0x7f02006a;
+        public static final int icon_left_user=0x7f02006b;
+        public static final int leftroundborder=0x7f02006c;
+        public static final int logo=0x7f02006d;
+        public static final int rightroundborder=0x7f02006e;
     }
     public static final class id {
         public static final int accueil=0x7f05003c;
@@ -1118,7 +1121,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050049;
+        public static final int action_option=0x7f050049;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1281,6 +1284,7 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+        public static final int action_option=0x7f0a001c;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
         public static final int btn_consulter=0x7f0a0019;
@@ -1290,6 +1294,7 @@ containing a value of this type.
         public static final int hello_world=0x7f0a000e;
         public static final int img_desc=0x7f0a0015;
         public static final int login_title=0x7f0a0012;
+        public static final int logo=0x7f0a001b;
         public static final int pass_title=0x7f0a0013;
         public static final int title_activity_accueil=0x7f0a0016;
         public static final int title_btn_connexion=0x7f0a0014;
@@ -1526,6 +1531,8 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0009;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0022;
         /**  theme permetant d'enlever la barre de titre de l'application 
+ theme permetant d'enlever la barre de titre de l'application 
+ theme permetant d'enlever la barre de titre de l'application 
          */
         public static final int themeVide=0x7f0b008d;
     }

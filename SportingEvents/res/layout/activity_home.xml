@@ -1,3 +1,6 @@
+<!-- 
+ 	author: Zoubert Hanem 
+-->
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/accueil"
@@ -7,6 +10,7 @@
      android:gravity="center"
     android:orientation="vertical" >
     
+    <!-- Image deco page d'accueil by Zoubert Hanem-->
         <ImageView
         android:id="@+id/deco_evenement"
         android:layout_width="wrap_content"
@@ -14,14 +18,16 @@
         android:layout_marginBottom="5dp"
         android:contentDescription="@string/title_evenement"
         android:src="@drawable/deco_events_title" />
-
+        
+	<!-- Logo de l'application by Sylvain Vincet -->
      <ImageView
          android:layout_width="120dp"
          android:layout_height="116dp"
          android:layout_marginBottom="10dp"
          android:contentDescription="@string/logo"
          android:src="@drawable/logo" />
-        
+     
+    <!-- Boutton creer -->   
      <Button
         android:id="@+id/creer"
         android:layout_width="250dip"
@@ -30,6 +36,7 @@
         android:textStyle="bold"
         android:text="@string/btn_creer" />
      
+     <!-- boutton consulter -->
      <Button
         android:id="@+id/consulter"
         android:layout_width="250dip"
@@ -39,6 +46,7 @@
         android:textStyle="bold"
         android:text="@string/btn_consulter" />
      
+     <!-- Boutton modifier -->
     <Button
         android:id="@+id/modifier"
         android:layout_width="250dip"

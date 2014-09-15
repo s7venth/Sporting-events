@@ -1,3 +1,6 @@
+<!--  
+	Author: Zoubert Hanem
+-->
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -5,7 +8,8 @@
     android:layout_height="230dp"
     android:layout_gravity="center_horizontal"
     android:background="@drawable/bg_form" >
-
+	
+    <!-- champs du login -->
     <EditText
         android:id="@+id/login"
         android:layout_width="250dip"
@@ -22,7 +26,8 @@
 
         <requestFocus />
     </EditText>
-
+	
+    <!-- Champs du mot de passe -->
     <EditText
         android:id="@+id/mdp"
         android:layout_width="250dip"
@@ -35,7 +40,8 @@
         android:hint="@string/pass_title"
         android:inputType="textPassword"
         android:singleLine="true"/>
-
+	
+    <!-- Boutton connexion -->
     <Button
         android:id="@+id/btn_connexion"
         android:layout_width="250dip"
@@ -46,7 +52,8 @@
         android:background="@drawable/btn_connexion"
         android:text="@string/title_btn_connexion"
         android:textStyle="bold" />
-
+    
+	<!-- Icon deco login -->
     <ImageView
         android:id="@+id/icon_login"
         android:layout_width="40dp"
@@ -57,7 +64,8 @@
         android:contentDescription="@string/img_desc"
         android:padding="5dp"
         android:src="@drawable/icon_left_user"/>
-
+    
+	<!-- Icone deco mot de passe -->
     <ImageView
         android:id="@+id/icon_mdp"
         android:layout_width="40dp"

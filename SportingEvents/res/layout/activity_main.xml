@@ -37,6 +37,8 @@
 	  	<!--  Header Ends --> 
 	  	
 	  	<!--  Formulaire start --> 
+	  	
+	  	<!-- Image deco page login by Zoubert Hanem -->
 	    <ImageView
 	        android:id="@+id/deco_login"
 	        android:layout_width="wrap_content"
@@ -45,7 +47,8 @@
 	        android:layout_marginTop="26dp"
 	        android:contentDescription="@string/desc_login_title"
 	        android:src="@drawable/deco_login_title" />
-	
+	    
+		<!-- Include du formulaire de connexion dans activity_main -->
 	    <include
 	        android:id="@+id/formulaire"
 	        android:layout_width="300dp"
