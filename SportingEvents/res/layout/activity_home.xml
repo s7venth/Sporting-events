@@ -21,8 +21,8 @@
         
 	<!-- Logo de l'application by Sylvain Vincet -->
      <ImageView
-         android:layout_width="120dp"
-         android:layout_height="116dp"
+         android:layout_width="50dp"
+         android:layout_height="55dp"
          android:layout_marginBottom="10dp"
          android:contentDescription="@string/logo"
          android:src="@drawable/logo" />
